@@ -1,0 +1,145 @@
+.container{
+  display: flex;
+  line-height: 70px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.heading1{
+  flex: 7;
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+.heading2{
+  flex:0.5;
+  padding-right: 15px;
+}
+
+.heading3{
+  flex:0.5;
+
+}
+
+.heading4{
+  flex:1;
+  padding-right: 50px;
+  
+}
+
+.big-heading{
+ text-align: justify;
+}
+
+.container2{
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 450px;
+  padding-left: 70px;
+  background-color: rgb(171, 166, 166);
+  padding-top: 50px;
+
+}
+
+.head{
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+
+.pic-container{
+  height: 450px;
+  display: flex;
+  align-items: center;
+
+}
+
+.pic{
+  display: flex;
+  flex: 1;
+  width: 350px;
+  height: 250px;
+  padding-left: 50px;
+  padding-right: 200px;
+}
+
+.gallery-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.pic-container1, .pic-container2{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.image{
+  width: 300px;
+}
+
+.footer-container{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  background-color: rgb(170, 166, 166);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.aircampus-text{
+  margin-left: 5px;
+}
+
+.aircampus{
+  display: flex;
+  flex: 3;
+  margin-left: 100px;
+}
+
+.social{
+  flex: 1;
+  line-height: 5px;
+}
+
+.fa-instagram{
+  color: rgb(70, 57, 57) ;
+  margin-right: 10px;
+}
+
+.fa-twitter{
+  color: rgb(48, 57, 60);
+  margin-right: 10px;
+}
+
+.fa-linkedin-square{
+  color: #363545;
+  margin-right: 10px;
+
+}
+
+.fa-facebook-square{
+  padding: 1px 4px;
+  margin-right: 10px;
+}
+
+.fa-whatsapp{
+color: rgb(41, 39, 39);
+
+}
+
+.fa:hover{
+  cursor: pointer;
+}
+
